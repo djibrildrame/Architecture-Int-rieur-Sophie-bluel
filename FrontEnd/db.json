@@ -1,0 +1,39 @@
+{
+  "login": [
+    {
+      "id": "2896",
+      "email": "djibril.drame96@gmail.com",
+      "password": "Azerty-1234"
+    },
+    {
+      "id": "713f",
+      "email": "Kitkat@gmail.com",
+      "password": "Azerty-1234"
+    },
+    {
+      "id": "bfb9",
+      "email": "test@example.com",
+      "password": "Test@1234"
+    },
+    {
+      "id": "17a6",
+      "email": "Kitkat@gmail.com",
+      "password": "Azerty-93"
+    },
+    {
+      "id": "7d58",
+      "email": "test@example.com",
+      "password": "Test@1234"
+    },
+    {
+      "id": "ac2b",
+      "email": "Jackson.M@gmail.com",
+      "password": "Azerty-1234"
+    },
+    {
+      "id": "87df",
+      "email": "Kitkat@gmail.com",
+      "password": "Azerty-1234"
+    }
+  ]
+}

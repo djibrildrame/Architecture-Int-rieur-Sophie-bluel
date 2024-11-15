@@ -8,16 +8,19 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap" rel="stylesheet">
 	<meta name="description" content="">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
+<div class="overlate"></div>
+
 <header>
 	<h1>Sophie Bluel <span>Architecte d'intérieur</span></h1>
 	<nav>
 		<ul>
 			<li>projets</li>
 			<li>contact</li>
-			<li>login</li>
+			<li class="login-logout"><a class="login" href="/login.html">login</a></li>
 			<li><img src="./assets/icons/instagram.png" alt="Instagram"></li>
 		</ul>
 	</nav>
@@ -35,7 +38,17 @@
 		</article>
 	</section>
 	<section id="portfolio">
-		<h2>Mes Projets</h2>
+		
+<div class="projet">
+	<h2>Mes Projets</h2>
+	<div class="modification">
+		<p class="modifier"></p>
+				</div>
+
+</div>
+		
+
+
 		<div class="btncat">
 			<button class="categorie tous">Tous</button>
 			<button class="categorie objets">Objets</button>
@@ -43,10 +56,28 @@
 			<button class="categorie hotel">Hotels & restaurants</button>
 		</div>
 
+		<div class="container-modale">
+
+		</div>
+
+		
+
+		
+		<div class="img-add">
+		
+
+
+
+		</div>
+
+	
 		<div class="gallery">
+		
 			
+
 		
 	</section>
+	
 	<section id="contact">
 		<h2>Contact</h2>
 		<p>Vous avez un projet ? Discutons-en !</p>
@@ -62,6 +93,8 @@
 	</section>
 </main>
 
+
+
 <footer>
 	<nav>
 		<ul>
@@ -70,49 +103,7 @@
 	</nav>
 </footer>
 
-<style>
 
-.btncat{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin-bottom: 4%;
-}
-
-
-
-/* Style pour les boutons de catégorie */
-.categorie {
-	font-family: 'Syne', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  color: #2C6E49; /* Texte blanc */
-  padding: 0.6rem 1.2rem; /* Padding ajusté pour correspondre au style de la capture */
-  border-radius: 20px;
-  border: none;
-  margin: 0 0.5rem; /* Espace entre les boutons */
-  cursor: pointer;
-
-}
-
-.categorie:hover {
-  background-color: #1A4A33; /* Vert un peu plus foncé au survol */
-  color: white;
-}
-
-/* Conteneur pour centrer et espacer les boutons de catégorie */
-.category-container {
-  text-align: center;
-  padding: 1rem 0; /* Padding pour espacer la section des catégories */
-  margin-bottom: 1.5rem;
-}
-
-	
-
-
-
-
-	</style>
 <script src="./app.js" defer></script>
 </body>
 </html>
