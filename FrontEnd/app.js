@@ -95,9 +95,6 @@ function afficherElementsExclusifs() {
       </div>`;
     category.forEach(cat => cat.style.display = "none");
   }
-
-
-
   modifier.addEventListener('click', openModale);
 }
 
