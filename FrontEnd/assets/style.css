@@ -279,8 +279,7 @@ footer nav ul {
 .modale {
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 	Width: 479px;
-	Height:550px;
-   
+	Height: 467px; 
 	padding: 20px;
 	background-color: #fff;
 	position: relative;
@@ -464,7 +463,7 @@ display: none;
 
 	
 .fa-image {
-    color:#87b6d0;
+    color:#A7A7A7;
     margin-left: 3%;
     margin-top: 2%;
 }
@@ -547,7 +546,7 @@ display: none;
 }
 
 .upload-text {
-	background-color:#87b6d0;
+	background-color:#A7A7A7;
     color: white;
     font-family: 'Syne', sans-serif;
     font-size: 14px;
@@ -592,7 +591,7 @@ display: none;
 
 /* Bouton de validation */
 .submit-button {
-	background-color: #87b6d0; 
+	    background-color: #A7A7A7;
     color: white;
     font-family: 'Syne', sans-serif; 
     font-size: 14px;
@@ -627,7 +626,7 @@ display: none;
 .jpg {
 	margin-top: 2%;
 	font-size: 13px;
-	color: #87b6d0;
+	color: #A7A7A7;;
 }
 
 .hradd{

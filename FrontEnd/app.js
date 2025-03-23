@@ -193,6 +193,7 @@ const openAddPhotoForm = () => {
       <div class="form-group">
         <label for="categorySelect">Catégorie</label>
         <select id="categorySelect">
+         <option value=""</option>
           <option value="1">Objets</option>
           <option value="2">Appartements</option>
           <option value="3">Hotels & restaurants</option>
