@@ -7,6 +7,9 @@ const modifier = document.querySelector('.modifier');
 const category = document.querySelectorAll('.categorie');
 const modaleadd = document.querySelector('.img-add');
 const modale = document.querySelector('.container-modale');
+const edition = document.querySelector('.edition');
+console.log(edition);
+
 let userData = [];
 
 // Fonction pour vérifier si le token est expiré
@@ -86,6 +89,8 @@ function afficherElementsExclusifs() {
   localStorage.removeItem('token');
   window.location.reload();
 });
+
+
 
   if (modifier) {
     modifier.innerHTML = `
@@ -309,6 +314,7 @@ function masquerElementsExclusifs() {
   if (modifier) {
     modifier.style.display = "none";
     login.style.display = "block";
+    edition.style.display = "none";
   }
 }
 
